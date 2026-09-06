@@ -11,3 +11,9 @@ wheels/
 
 # Documentation
 documents/
+
+# Qdrant database
+qdrant_storage/
+
+# Cache and temporary files
+cache/
