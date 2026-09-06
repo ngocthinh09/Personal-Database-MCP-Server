@@ -71,7 +71,8 @@ if __name__ == "__main__":
             pbar.update(1)
 
     # embedding_model_id = "jinaai/jina-embeddings-v3"
-    embedding_model_id = "Alibaba-NLP/gte-multilingual-base"
+    # embedding_model_id = "Alibaba-NLP/gte-multilingual-base"
+    embedding_model_id = "BAAI/bge-small-en-v1.5"
     embedding_model = SentenceTransformer(
         embedding_model_id, trust_remote_code=True, cache_folder="./cache"
     )
