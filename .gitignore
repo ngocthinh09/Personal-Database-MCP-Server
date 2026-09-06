@@ -14,6 +14,7 @@ documents/
 
 # Qdrant database
 qdrant_storage/
+qdrant_database/
 
 # Cache and temporary files
 cache/
